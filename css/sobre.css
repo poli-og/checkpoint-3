@@ -1,4 +1,36 @@
 
+.card.shadow-sm { 
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.bd-placeholder-img {
+  
+  width: 250px;
+  height: 250px;
+  border: 2px solid lightgray;
+  border-radius: 15px;
+  overflow: hidden;
+}
+
+.bd-placeholder-img img {
+  height: 250px;
+  width: 250px;
+  object-fit:inherit;
+  transition: all .3s ease-in-out;
+}
+
+.bd-placeholder-img img:hover {
+    transform: scale(1.1);
+}
+
+.card-body {
+  text-align: center;
+}
+
 .icon-body {
   margin: 0;
   padding: 0;
@@ -8,7 +40,7 @@
 .icon-body > a {
   margin: 0.25rem;
   border-radius: 50%;
-  transition: all 250ms ease-in-out;
+  transition: all .3s ease-in-out;
   transition-property: transform, box-shadow;
 }
 
