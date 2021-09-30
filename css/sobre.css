@@ -1,0 +1,24 @@
+
+.icon-body {
+  margin: 0;
+  padding: 0;
+  margin-top: 1rem;
+}
+
+.icon-body > a {
+  margin: 0.25rem;
+  border-radius: 50%;
+  transition: all 250ms ease-in-out;
+  transition-property: transform, box-shadow;
+}
+
+.icon-body > a:hover {
+  transform: scale(1.20) 1s;
+  box-shadow: 0 0 1rem -0.25rem rgb(0, 128, 128);
+}
+
+.icon {
+  --dimensions: 1.75rem;
+  width: var(--dimensions);
+  height: var(--dimensions);
+}
