@@ -12,9 +12,9 @@
   transition-property: transform, box-shadow;
 }
 
-.icon-body > a:hover {
-  transform: scale(1.20) 1s;
-  box-shadow: 0 0 1rem -0.25rem rgb(0, 128, 128);
+.icon-body img:hover {
+  transform: scale(1.1);
+  box-shadow: 0 0 1rem -0.25rem #003566;
 }
 
 .icon {
